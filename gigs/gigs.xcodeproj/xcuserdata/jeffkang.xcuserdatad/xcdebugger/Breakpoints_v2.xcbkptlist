@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "879B4218-809B-40B7-B36C-CCC702429570"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6328E0FB-1BE2-4AAC-8036-C7BD8A333760"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gigs/ViewControllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6328E0FB-1BE2-4AAC-8036-C7BD8A333760 - de0eec7d10ef5d01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.getter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "6328E0FB-1BE2-4AAC-8036-C7BD8A333760 - 12f26152471daacd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.setter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "6328E0FB-1BE2-4AAC-8036-C7BD8A333760 - ec2a90608b2d877e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "6328E0FB-1BE2-4AAC-8036-C7BD8A333760 - 1abb84fba3d9cdc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "6328E0FB-1BE2-4AAC-8036-C7BD8A333760 - a05d2f6c5f4e63c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; gigs.LoginViewController"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "487">
+               </Location>
+               <Location
+                  uuid = "6328E0FB-1BE2-4AAC-8036-C7BD8A333760 - ea76b8d6c71aeb81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;gigs.LoginViewController&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "706042AF-3C88-42C0-BA78-EF9282EF688D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gigs/ViewControllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "loginTypeChanged(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05F72313-0121-4381-A010-AFE320BC8A5A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gigs/ViewControllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98C50BEB-2F89-49DB-8666-34D197B8529C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gigs/ModelControllers/GigController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "signUp(with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A39B90B8-A3FE-4FD8-A863-7271995F2E3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gigs/ViewControllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A39B90B8-A3FE-4FD8-A863-7271995F2E3A - de0eec7d10ef5d01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.getter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "A39B90B8-A3FE-4FD8-A863-7271995F2E3A - 12f26152471daacd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.setter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "A39B90B8-A3FE-4FD8-A863-7271995F2E3A - ec2a90608b2d877e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "A39B90B8-A3FE-4FD8-A863-7271995F2E3A - 1abb84fba3d9cdc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.loginTypeSegmentedControl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "A39B90B8-A3FE-4FD8-A863-7271995F2E3A - a05d2f6c5f4e63c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; gigs.LoginViewController"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "487">
+               </Location>
+               <Location
+                  uuid = "A39B90B8-A3FE-4FD8-A863-7271995F2E3A - ea76b8d6c71aeb81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gigs.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;gigs.LoginViewController&gt;"
+                  moduleName = "gigs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffkang/ios/ios-gigs/gigs/gigs/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
