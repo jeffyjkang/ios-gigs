@@ -19,13 +19,19 @@ class GigController {
         case failedSignUp
         case failedSignIn
         case noToken
+        case tryAgain
+        case failedCreatingGig
     }
     
     private let baseURL = URL(string: "https://lambdagigapi.herokuapp.com/api")!
     private lazy var signUpURL = baseURL.appendingPathComponent("/users/signup")
     private lazy var signInURL = baseURL.appendingPathComponent("/users/login")
     
+    private lazy var allGigsURL = baseURL.appendingPathComponent("/gigs/")
+    
     var bearer: Bearer?
+    
+    var gigs: [Gig] = []
     
     // helper method for posting
     private func postRequest(for url: URL) -> URLRequest {
@@ -108,6 +114,94 @@ class GigController {
             print("Error encoding user: \(error.localizedDescription)")
             completion(.failure(.failedSignIn))
         }
+    }
+    
+    // fetch all gigs
+    func fetchAllGigs(completion: @escaping (Result<[Gig], NetworkError>) -> Void) {
+        guard let bearer = bearer else {
+            completion(.failure(.noToken))
+            return
+        }
+
+        var request = URLRequest(url: allGigsURL)
+        request.httpMethod = HTTPMethod.get.rawValue
+        request.setValue("Bearer \(bearer.token)", forHTTPHeaderField: "Authorization")
+
+        
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+            if let error = error {
+                print("Error receiving gigs data: \(error)")
+                completion(.failure(.tryAgain))
+                return
+            }
+            if let response = response as? HTTPURLResponse,
+               response.statusCode == 401 {
+                completion(.failure(.noToken))
+                return
+            }
+            
+            guard let data = data else {
+                print("No data received from getAllGigs")
+                completion(.failure(.noData))
+                return
+            }
+
+            do {
+                let jsonDecoder = JSONDecoder()
+                jsonDecoder.dateDecodingStrategy = .iso8601
+                let gigs = try jsonDecoder.decode([Gig].self, from: data)
+                self.gigs = gigs
+                print("complete")
+                completion(.success(gigs))
+            } catch {
+                print("Error decoding gigs data: \(error)")
+                completion(.failure(.tryAgain))
+            }
+        }
+        task.resume()
+    }
+    
+    // create gig
+    
+    func createGig(with gig: Gig, completion: @escaping(Result<Gig, NetworkError>) -> Void) {
+        guard let bearer = bearer else {
+            completion(.failure(.noToken))
+            return
+        }
+        
+        var request = postRequest(for: allGigsURL)
+        request.setValue("Bearer \(bearer.token)", forHTTPHeaderField: "Authorization")
+        do {
+            let jsonEncoder = JSONEncoder()
+            jsonEncoder.dateEncodingStrategy = .iso8601
+            let jsonData = try jsonEncoder.encode(gig)
+            request.httpBody = jsonData
+            
+            let task = URLSession.shared.dataTask(with: request) { (_, response, error) in
+                if let error = error {
+                    print("Creating gig failed with error: \(error)")
+                    completion(.failure(.failedCreatingGig))
+                    return
+                }
+                if let response = response as? HTTPURLResponse,
+                      response.statusCode == 401 {
+                    completion(.failure(.noToken))
+                    return
+                }
+                guard let response = response as? HTTPURLResponse,
+                      response.statusCode == 200 else {
+                    print("Creating gig failed")
+                    completion(.failure(.failedCreatingGig))
+                    return
+                }
+                completion(.success(gig))
+            }
+            task.resume()
+        } catch {
+            print("Error encoding gig: \(error)")
+            completion(.failure(.failedCreatingGig))
+        }
+        
     }
     
 }
