@@ -11,12 +11,6 @@ class GigsTableViewController: UITableViewController {
     
     let gigController = GigController()
     
-//    private var gigs: [Gig] = [] {
-//        didSet {
-//            tableView.reloadData()
-//        }
-//    }
-    
     private let df = DateFormatter()
 
     override func viewDidLoad() {
